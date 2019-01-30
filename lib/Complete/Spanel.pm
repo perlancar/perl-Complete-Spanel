@@ -7,6 +7,8 @@ use 5.010001;
 use strict;
 use warnings;
 
+use Complete::Common qw(:all);
+
 require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(
@@ -42,6 +44,7 @@ _
 means to return it converting `_` to `*`, e.g. `*.example.com`.
 
 _
+        },
     },
     result_naked => 1,
     result => {
